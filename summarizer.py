@@ -1,6 +1,6 @@
 from anthropic import Anthropic
 
-client = Anthropic(api_key="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")
+client = Anthropic(api_key="")
 
 def get_prompt_for_style(text, style):
     base_intro = "Summarize the following Reddit thread (title, post, and top comments)"
