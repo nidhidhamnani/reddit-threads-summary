@@ -18,7 +18,7 @@ def get_prompt_for_style(text, style):
 
     return prompt
 
-def summarize_text(text, style, max_tokens=500):
+def summarize_text(text, style, max_tokens=300):
     prompt = get_prompt_for_style(text, style)
 
     message = client.messages.create(
